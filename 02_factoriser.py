@@ -1,6 +1,5 @@
 def num_check(question, low):
 
-
     valid = False
     while not valid:
 
@@ -20,28 +19,9 @@ def num_check(question, low):
             print(error)
 
 
-
+keep_going = ""
+while keep_going == "":
     print()
     #ask the user for an interger (must be more than / eqaul to 0)
     var_inter = num_check("enter a integer:  ", 0)
     print()
-
-
-keep_going = ""
-while keep_going == "":
-
-    print()
-    #ask the user for an interger (must be more than / eqaul to 0)
-    var_inter = num_check("enter a integer:  ", 0)
-    print()
-
-
-keep_going = ""
-while keep_going == "":
-
-    print()
-    keep_going = input("press <enter> to continue  or any key to quit ")
-    print()
-
-
-
