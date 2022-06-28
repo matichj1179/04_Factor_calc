@@ -49,6 +49,18 @@ def num_check(question, low):
         except ValueError:
             print(error)
 
+def get_factors(to_factor):
+     # list to hold factors
+    factors = []
+
+
+    # sqaure root to_factor to find 'half way'
+    limit = int(to_factor ** 0.5)
+
+
+    
+
+
 
 # Main Routine goes here
 
